@@ -1,0 +1,73 @@
+<com.mxn.soul.flowingpager_core.FlowingPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pagerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    app:edContentBackground="#FEFEFE"
+    app:edCrackWidth="5dp"
+    app:edIconSize="50dp"
+    app:edMarginBottom="150dp"
+    app:edMenuBackground="#000000"
+    app:edPosition="1"
+    app:edMaxAnimationDuration="300"
+    app:edSlideRange="0.3">
+
+    <!--content-->
+    <com.mxn.soul.flowingpager_core.FlowingContentLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvFeed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/toolbar"
+                    layout="@layout/view_feed_toolbar" />
+            </android.support.design.widget.AppBarLayout>
+        </android.support.design.widget.CoordinatorLayout>
+
+    </com.mxn.soul.flowingpager_core.FlowingContentLayout>
+
+    <!--menu-->
+    <com.mxn.soul.flowingpager_core.FlowingMenuLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/id_container_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.mxn.soul.flowingpager_core.FlowingMenuLayout>
+
+    <!--button -->
+    <com.mxn.soul.flowingpager.PlayPauseView
+        android:id="@+id/flowingbutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        app:anim_direction="positive"
+        app:space_padding="8dp"
+        app:anim_duration="300"
+        app:bg_color="#692FFE"
+        app:btn_color="#ffffff"
+        />
+
+
+</com.mxn.soul.flowingpager_core.FlowingPager>

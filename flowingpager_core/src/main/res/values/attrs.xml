@@ -1,0 +1,31 @@
+
+<resources>
+
+    <!-- Reference to a style for the menu pager. -->
+    <attr name="elasticPagerStyle" format="reference" />
+
+    <!-- Styleables used for styling the menu pager. -->
+    <declare-styleable name="ElasticPager">
+        <!-- Drawable to use for the background of the menu. -->
+        <attr name="edMenuBackground" format="color" />
+        <!-- Drawable to use for the background of the content. -->
+        <attr name="edContentBackground" format="color" />
+        <!-- The crack size. -->
+        <attr name="edCrackWidth" format="dimension" />
+        <!-- The icon size. -->
+        <attr name="edIconSize" format="dimension" />
+        <!-- The maximum animation duration -->
+        <attr name="edMaxAnimationDuration" format="integer" />
+        <!-- The position of the pager -->
+        <attr name="edPosition" format="integer"/>
+        <!-- The icon margin top -->
+        <attr name="edMarginTop" format="dimension" />
+        <!-- The icon margin bottom -->
+        <attr name="edMarginBottom" format="dimension" />
+        <!-- The proportion of sliding range to screen width -->
+        <attr name="edSlideRange" format="float" />
+    </declare-styleable>
+
+
+
+</resources>

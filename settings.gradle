@@ -1,0 +1,1 @@
+include ':app', ':flowingpager_core'

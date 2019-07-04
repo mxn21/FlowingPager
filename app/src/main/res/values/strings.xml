@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FlowingPager</string>
+
+
+    <string name="title1">《盗将行》</string>
+    <string name="author1">作词: 姬霄 \n作曲: 花粥</string>
+    <string name="content1">劫过九重城关，我座下马正酣，\n看那轻飘飘的衣摆，趁擦肩把裙掀。\n… </string>
+    <string name="info1">疏影横斜水清浅，暗香浮动月黄昏。 </string>
+
+    <string name="title2">《出山》</string>
+    <string name="author2">作词: 花粥 \n作曲: BachBeats</string>
+    <string name="content2">在夜半三更过天桥从来不敢回头看，\n白日里是车水马龙此时脚下是忘川。\n… </string>
+    <string name="info2">云想衣裳花想容，春风拂槛露华浓。</string>
+
+    <string name="title3">《琵琶行》</string>
+    <string name="author3">作词: 白居易 \n作曲: 徒有琴</string>
+    <string name="content3">浔阳江头夜送客， 枫叶荻花秋瑟瑟。\n主人下马客在船， 举酒欲饮无管弦。\n… </string>
+    <string name="info3">若非群玉山头见，会向瑶台月下逢。</string>
+
+    <string name="title4">《眉间雪》</string>
+    <string name="author4">作词: 陆菱纱 \n作曲: 生命树</string>
+    <string name="content4">是不是每种感情都不容沉溺放肆，交心淡如君子\n只道是那些无关风花雪月的相思 说来几人能知。\n… </string>
+    <string name="info4">解释春风无限恨，沉香亭北倚阑干。 </string>
+</resources>
