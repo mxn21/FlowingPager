@@ -3,8 +3,7 @@
 
 
 ### showcase
-
-<img height="400" src="http://baobaoloveyou.com/flowingpager.gif"></img> 
+![Showcase](http://baobaoloveyou.com/flowingpager.gif)
 
 ### Summary
 A Flexible Side Sliding View Controlled by a Button
