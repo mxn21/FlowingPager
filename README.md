@@ -5,6 +5,9 @@
 ### showcase
 <img height="500" src="/art/flowingpager.gif"></img>  
 
+<p><a href="http://baobaoloveyou.com/flowingpager-0.1.0.apk" target="_blank" >Apk download</a></p>
+
+
 ### Summary
 A Flexible Side Sliding View Controlled by a Button
 
