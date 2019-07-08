@@ -1,11 +1,11 @@
-<p align="center"><img width="150"src="http://baobaoloveyou.com/flowingpager_icon.png"></p>
+<p align="center"><img width="150"src="/art/flowingpager_icon.png"></p>
 <h1 align="center">FlowingPager</h1>
 
 
 ### showcase
 <img height="500" src="/art/flowingpager.gif"></img>  
 
-<p><a href="http://baobaoloveyou.com/flowingpager-0.1.0.apk" target="_blank" >Apk download</a></p>
+<p><a href="/art/flowingpager-0.1.0.apk" target="_blank" >Apk download</a></p>
 
 
 ### Summary
